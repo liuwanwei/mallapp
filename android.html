@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+
+
+	<link rel="stylesheet" type="text/css" href="mobile_mall.css" />
+	<link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.0.3/css/font-awesome.min.css"> 
+
+	<title></title>
+</head>
+
+<body>
+<div class="container" id="page">
+	<div class="android-header">
+		<img src="images/logo_120.png">
+		<span>购物广场</span>
+	</div>
+	<a href="http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=10622021&from=timeline&isTimeline=true&actionFlag=0&params=pname%3Dcom.example.shoppingmall%26versioncode%3D10%26actionflag%3D0%26channelid%3D&isappinstalled=1" class="download" id="download" onclick="download()"><i class="fa fa-mobile"></i>Android客户端</a>
+	<div class="tip-div" id="tip_div" onclick="this.style.display='none';">
+		<div class="tip-div-header">
+			<div>
+				<p>链接打不开?</p>
+				<p>请点击右上角 <i class="fa fa-share-square-o"></i></p>
+			</div>
+			<p>选择<span>"在浏览器中打开"</span></p>
+		</div>
+	</div>
+	<div class="v-iPhone">
+		<header>版本v1.22</header>
+		<p>1 修改Bug</p>
+	</div>
+</div><!-- page -->
+<script type="text/javascript">
+	function is_weixn(){
+		    var ua = navigator.userAgent.toLowerCase();
+		    if(ua.match(/MicroMessenger/i)=="micromessenger") {
+		        return true;
+		    } else {
+		        return false;
+		    }
+	}
+	function download(){
+		if (is_weixn()) {
+			document.getElementById('tip_div').style.display='block';
+			return false;
+		}	
+		return true;
+	};
+</script>
+</body>
+</html>
