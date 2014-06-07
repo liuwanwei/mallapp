@@ -34,7 +34,7 @@
 			language:(navigator.browserLanguage || navigator.language).toLowerCase()
 		}
 
-		if (true == browser.versions.iPhone) {
+		if (true == browser.versions.iPhone || true == browser.versions.iPad) {
 			window.location.href="iPhone.html";
 		}else {
 			window.location.href="android.html";
