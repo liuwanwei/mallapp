@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+* {padding:0;margin:0;border:0;color:#555;}
+body {font:12px arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;background:#fff url(../imges/bg.jpg) repeat-x; margin:0px auto;color:#555; line-height:24px;}
+body a{text-decoration:none;color:#666666;text-decoration:none;}
+body a:hover {text-decoration:none;}
+ul,li,dl,dt,dd {list-style:none; margin:0px; padding:0px;}
+
+h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left; margin-bottom:10px;}
+.f20{ font:20px "\5FAE\8F6F\96C5\9ED1"; color:#555;}
+.f32{font-size:32px; color:#000;}
+.f130{font:130px Verdana, Arial, Helvetica, sans-serif; color:#ff3a3a; font-weight:normal;}
+
+/* header */
+.header{width:100%;height:119px; border-bottom:1px solid #eeeeee;}
+.hd_box{width:990px;height:119px;margin:0px auto;}
+.header .logs{width:252px;height:88px; padding:15px 0px 0px 24px; float:left;}
+.header .logs a.logo{width:252px;height:88px; background:url(../imges/logo.png) no-repeat; display:block;}
+.header .nav{width:500px;height:61px; float:right; margin:58px 90px 0px 0px;}
+.header .nav ul{width:600px;height:61px; display:block; overflow:hidden;}
+.header .nav ul li{width:65px;height:61px; float:left; display:block; line-height:24px; font-size:15px; text-align:center; margin:0px 40px 0px 0px;}
+.header .nav ul li a{width:65px;height:61px; display:block;}
+.header .nav ul li a:hover{width:65px;height:58px; border-bottom:3px solid #cd0009;}
+.header .nav ul li a.hov{width:65px;height:58px; border-bottom:3px solid #cd0009;}
+
+
+/* banner */
+.banner{width:100%;height:457px; margin:5px auto; background:url(../imges/ban.jpg) center no-repeat; overflow:hidden;}
+.banner div.ban{width:990px;height:457px;margin:0px auto; overflow:hidden;}
+.banner .ewm{width:140px;height:140px; background:url(../imges/ewm_bg.png) no-repeat right; margin:190px 0px 0px 83px; padding-right:191px;}
+.banner .ewm img{width:140px;height:140px;}
+.banners{width:100%;height:457px; margin:10px auto; background:url(../imges/ban2.jpg) center no-repeat; overflow:hidden;}
+
+
+.flo_r{width:80px;height:347px; position:fixed;top:0px;margin-top:230px;right:0px; margin-right:150px; background:url(../imges/flo_r.jpg) no-repeat;}
+
+/* wrap,content */
+.wraps{width:100%;margin:0px auto;text-align:center;}
+.wrap{width:990px;height:auto;margin:10px auto;text-align:center; overflow:hidden;}
+.row{height:auto; border-bottom:1px solid #eee; overflow:hidden;}
+.row p{width:420px;height:auto; overflow:hidden; display:block; text-align:left;line-height:1.8;}
+.words{height:78px; padding:30px 0px 0px 130px; background:url(../imges/num.png) no-repeat top left; line-height:42px;}
+.rbgo{background:url(../imges/r1.png) no-repeat bottom right; padding:154px 0px 202px 50px;}
+.rbgt{background:url(../imges/r2.png) no-repeat bottom left; padding:238px 0px 215px 600px;}
+.rbgth{background:url(../imges/r3.png) no-repeat bottom right; padding:255px 0px 315px 50px; border-bottom:none;}
+.more{font-size:14px; color:#ff3a3a; text-decoration:none;}
+.more:hover{font-size:14px; color:#ff3a3a; text-decoration:underline;}
+
+/* function */
+
+.item{ margin-bottom: 33px;}
+.item p{ color:#555555; }
+.item3{ margin-bottom: 95px; }
+.item5{ margin-bottom: 76px; }
+.item7{ margin-bottom: 86px; }
+.item_head{padding:40px 0 40px;height:auto;font-family:"微软雅黑";}
+.item_head h3{width:250px;height:86px; padding-left:100px;line-height:86px;font-size:28px;margin:0px auto 6px;color:#000;font-weight:normal;background:url(../imges/gn_icon.png) center no-repeat;}
+.item_head p{font-size:18px;line-height:32px;color:#555;font-weight:500;}
+.item_body{position:relative;font-size:14px;}
+.item1 .item_head h3{background-position:0px 0px;}
+.item2 .item_head h3{background-position: 0px -85px;}
+.item3 .item_head h3{background-position: 0px -170px;}
+.item4 .item_head h3{background-position: 0px -255px;}
+.item5 .item_head h3{background-position: 0px -340px;}
+.item6 .item_head h3{background-position: 0px -425px;}
+.item7 .item_head h3{background-position: 0px -510px;}
+.item8 .item_head h3{background-position: 0px -595px;}
+
+.item1 .item_body{height:660px;}
+.item2 .item_body{height:620px;}
+.item3 .item_body{height:460px;}
+.item4 .item_body{height:740px;}
+.item5 .item_body{height:407px;}
+.item6 .item_body{background:#fafafa url(http://static.bbs.miui.com/static/index/images/icon_6_1.png?111) no-repeat 70px 20px;height:490px;}
+.item7 .item_body{height:460px;}
+.item8 .item_body{background:#fafafa url(http://static.bbs.miui.com/static/index/images/icon-9.png?111) no-repeat 0 0;font-family:"宋体","黑体",Arial;}
+
+
+.item_body h2{width:400px;height:38px; font-size:24px; line-height:30px; color:#000; text-align:left; display:block; font-weight:normal;}
+.item_body p{ font-size:16px; line-height:30px; color:#555; text-align:left;}
+.p1{position:absolute;top:165px;left:100px;line-height:28px;width: 310px;  }
+.p2{position:absolute;top:165px;left:600px;line-height:28px;width: 250px;  }
+.item1 .item_body ul li{color:#555555;}
+.item_body .item1_tab_0{background: url(../imges/g1_1.png) no-repeat; height: 333px;}
+.item1 .item_body p{width:450px;right:50px;top:58px;position:absolute;}
+.item1 .item_body h2{right:101px;top:10px;position:absolute;}
+
+.item2_tab{ background-color: #FAFAFA;padding-bottom:40px; border-radius: 0 0 5px 5px; }
+.item2_tab ol{border:1px solid;border-color: #D7D7D7 #D2D2D2 #AFAFAF #D2D2D2;width:855px;border-radius:5px;margin: 0 auto;}
+.item2_tab li{width:107px;height:81px;padding-top:20px;text-align:center;font-size:12px;background-image:url(http://static.bbs.miui.com/static/index/images/icon-2-tab-bg.png?111);cursor:pointer;float: left;}
+.item2_tab li.tabfirstli{border-radius:5px 0 0 5px;}
+.item2_tab li.tablastli{width:106px;border-radius:0 5px 5px 0;}
+.item2_tab li.item2_tab_current{background-image:url(http://static.bbs.miui.com/static/index/images/item2_tab_bg_clicked.png?111);}
+.item2_tab li.item2_tab_current p{color:#FFFFFF;}
+.item2 .item_body div{}
+.item2 .item_body img,.item2 .item_body h4,.item2 .item_body p{position:absolute;}
+.item2 .item_body p{width:260px;line-height:22px;left:90px;top:235px;}
+.item2 .item_body h4{font-size:18px;font-weight:bold;color:#333333;left:90px;top:200px;}
+.item2 .item_body img{left:345px;top:50px;}
+.item2 .item2_tab_6 img{left:60px;top:0;}
+.item2 .item2_tab_6 h4{left:390px;top:490px;}
+.item2 .item2_tab_6 p{left:80px;top:525px;width:800px;}
+.item2 .item2_tab_2 h4{left:90px;top:185px;}
+.item2 .item2_tab_2 p{left:90px;top:220px;}
+
+.item2 .item2_tab_1 img{left:390px;top:60px;}
+.item2 .item2_tab_2 img{left:240px;top:160px;}
+.item2 .item2_tab_3 img{left:358px;top:60px;}
+.item2 .item2_tab_4 img{left:240px;top:160px;}
+.item2 .item2_tab_5 img{left:390px;top:60px;}
+.item2 .item2_tab_6 img{left:88px;top:60px;}
+.item2 .item2_tab_7 img{left:240px;top:160px;}
+.item3 .item_body p{position:absolute;top:110px;left:410px;line-height:26px;width:385px;}
+.item3 .item_body img{ position: absolute; top: 50px; left: 80px; }
+.item4 .item_body{text-align:center;padding-bottom:30px;}
+.item4 .item_body img{margin:70px 0 10px 0 ;}
+.item4 .item_body h4{padding:10px 0;font-size:18px ;font-weight:bold;color:#333333;}
+.item4 .item_body div{height:708px;position:relative;}
+.item4_tab{background-image:url(http://static.bbs.miui.com/static/index/images/icon-4-tab-bg.png?111);width:760px;height:43px;margin:0 auto;}
+.item4_tab li{width:253px;line-height:43px;cursor:pointer;float: left;}
+.item4_tab .item4_tab_first{width:254px;border-radius:5px 0 0 5px;}
+.item4_tab .item4_tab_last{border-radius:0 5px 5px 0;}
+.item4_tab li.item4_tab_current{background-image:url("http://static.bbs.miui.com/static/index/images/item4_tab_bg_clicked.png?111");color:#FFFFFF;}
+.item4_tab2_video_play {cursor: pointer;left: 437px;position: absolute;top: 195px;}
+.item4 .item_body p{line-height:26px; }
+.item5 .item_body p{position:absolute;left:550px;top:40px;line-height:28px;width:340px;}
+.item5 .item_body li{color:#555555;}
+.item5 .item_body img{ position: absolute; left: 100px; top: 40px; }
+.item6 .item_body p{width:700px;padding-left:68px;color:#555555;padding-top:10px;line-height:26px;}
+.item6 .item_body .word_normal, .item6 .item_body .word_big{position:absolute;top:410px;width:295px;text-align:center;}
+.word_normal{left:40px;}
+.word_big{left:455px;}
+.item7 .item_body p{width:280px;position:absolute;left:80px;line-height:26px;}
+.item7 .item_body img{ position: absolute; left: 400px; top: 40px; }
+
+
+.item_body_0{top:140px;font-size:18px;font-weight:bold;font-family:"微软雅黑","宋体","黑体",Arial;text-indent:-9999px;}
+.item7 p.item_body_1{top:150px;left:77px;}
+.item_body_2{top:140px;}
+
+
+
+
+/*help*/
+.leftbox{width:220px;height:auto; overflow:hidden; float:left; background:#f9f9f9; border:1px solid #e2e2e2; border-bottom:none;}
+.leftbox dl{width:220px;height:auto; text-align:left; display:block;}
+.leftbox dt{height:52px; border-bottom:1px solid #e5262f; display:block; line-height:52px; font-size:20px; padding-left:37px;}
+.leftbox dd{height:42px; line-height:42px; border-bottom:1px solid #e2e2e2; font-size:14px;}
+.leftbox dd a{width:183px; height:42px; padding-left:37px; display:block;}
+.leftbox dd a:hover{width:183px; height:42px; padding-left:37px; display:block; background:#fff;}
+.leftbox dd a.ah{width:183px; height:42px; padding-left:37px; display:block; background:#fff;}
+
+.rightbox{width:698px;height:auto; overflow:hidden; float:right; background:#fff; border:1px solid #e2e2e2; padding:0px 29px 20px;}
+.rightbox .r_tit{width:698px;height:52px; overflow:hidden; border-bottom:1px solid #e2e2e2;}
+.rightbox .r_tit h3{width:64px;height:50px; display:block; border-bottom:2px solid #e5262f; font-size:16px; margin:0px; line-height:50px;}
+.rightbox .r_box{width:100%px;height:auto; margin-top:10px;}
+.rightbox dl{width:100%px;height:auto; text-align:left; display:block; margin-top:10px;}
+.rightbox dt{width:688px;height:37px; display:block; line-height:37px; font-size:14px; background:#f9f9f9; padding-left:10px;color:#555;}
+.rightbox dd{width:688px;height:auto; line-height:26px; padding-left:10px;color:#666; }
+.rightbox dd p{font-size:13px;}
+
+ /* foot */
+.footer{width:100%;height:70px; margin:0px auto; background:#ececec; text-align:center; padding:40px 0px 0px;font-size:12px; }
+
+
