@@ -1,0 +1,106 @@
+a,button,input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+a.download{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack: center;
+  	-webkit-box-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	text-align: center;
+	border:1px solid rgba(44, 44, 44, 0.9);
+	background: rgba(44, 44, 44, 1.00);
+	margin: 0 auto;
+	margin-top:20px;
+	font-size: 0.9em;
+}
+a.download>i{
+	display: block;
+	-webkit-box-flex:0;
+	font-size: 30px;
+	margin-right:10px;
+}
+div,p{
+	margin: 0px;
+	padding: 0px;
+}
+.android-header{
+	width: 140px;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack: center;
+  	-webkit-box-align: center;
+  	margin:0 auto;
+}
+.android-header>img{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: rgba(240, 55, 64, 0.7);
+	display: block;
+	-webkit-box-flex:0;
+}
+.android-header>span{
+	display: block;
+	-webkit-box-flex:1;
+	font-size: 1.2em;
+	padding-left: 10px;
+}
+.tip-div{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position:absolute;
+	background: rgba(0,0,0,0.6); 
+	bottom: 0px;
+	left: 0px;
+	display: none;
+}
+.tip-div .tip-div-header{
+	width: 100%;
+	height: 120px;
+	background: rgba(255,255,255,1.00) url(images/line-top.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: 90% 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-top: 30px;
+	display: block;
+}
+.tip-div .tip-div-header p
+{
+	line-height: 25px;
+}
+.tip-div .tip-div-header>div,.tip-div .tip-div-header>p{
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+}
+.tip-div .tip-div-header>div>p:nth-child(1){
+	font-size: 1.2em;
+}
+.tip-div .tip-div-header>div>p:nth-child(2)>i{
+	color: #666;
+}
+.tip-div .tip-div-header>p>span{
+	font-size: 1.1em;
+	color: red;
+}
+div.v-iPhone{
+	margin:20px 10px;
+}
+div.v-iPhone>header{
+	font-size: 0.9em;
+	line-height: 20px;
+}
+div.v-iPhone>p{
+	font-size: 0.9em;
+	line-height: 20px;
+}
