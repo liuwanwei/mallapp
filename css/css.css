@@ -29,6 +29,11 @@ h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left
 /* banner */
 .banner{width:100%;height:457px; margin:5px auto; background:url(../images/ban.jpg) center no-repeat; overflow:hidden;}
 .banner div.ban{width:990px;height:457px;margin:0px auto; overflow:hidden;}
+
+.banner .jykx{ background:url(http://app.bl99w.com/kaixuan/images/ban_jykx.jpg) no-repeat;}
+.banner .jjjc{ background:url(http://app.bl99w.com/jiajia/images/ban_jjjc.jpg) no-repeat;}
+.banner .bdg{ background:url(http://app.bl99w.com/bdg/images/ban_bdg.jpg) no-repeat;}
+
 .banner .ewm{width:140px;height:140px; background:url(../images/ewm_bg.png) no-repeat right; margin:190px 0px 0px 83px; padding-right:191px;}
 .banner .ewm img{width:140px;height:140px;}
 .banners{width:100%;height:457px; margin:10px auto; background:url(../images/ban2.jpg) center no-repeat; overflow:hidden;}
