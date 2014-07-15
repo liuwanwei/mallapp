@@ -33,8 +33,29 @@ h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left
 
 /* wrap,content */
 
-.wrap{width:100%;height:auto;margin:0px auto;text-align:center; overflow:hidden;}
 .row_box{height:auto; overflow:hidden;}
+.wraps{width:100%;margin:0px auto;text-align:center;}
+.wrap{width:990px;height:auto;margin:10px auto;text-align:center; overflow:hidden;}
+
+
+/*help*/
+.leftbox{width:220px;height:auto; overflow:hidden; float:left; background:#f9f9f9; border:1px solid #e2e2e2; border-bottom:none;}
+.leftbox dl{width:220px;height:auto; text-align:left; display:block;}
+.leftbox dt{height:52px; border-bottom:1px solid #0fa8cd; display:block; line-height:52px; font-size:20px; padding-left:37px;}
+.leftbox dd{height:42px; line-height:42px; border-bottom:1px solid #e2e2e2; font-size:14px;}
+.leftbox dd a{width:183px; height:42px; padding-left:37px; display:block;}
+.leftbox dd a:hover{width:183px; height:42px; padding-left:37px; display:block; background:#fff;}
+.leftbox dd a.ah{width:183px; height:42px; padding-left:37px; display:block; background:#fff;}
+
+.rightbox{width:698px;height:auto; overflow:hidden; float:right; background:#fff; border:1px solid #e2e2e2; padding:0px 29px 20px;}
+.rightbox .r_tit{width:698px;height:52px; overflow:hidden; border-bottom:1px solid #0fa8cd;}
+.rightbox .r_tit h3{width:64px;height:50px; display:block; border-bottom:2px solid #0fa8cd; font-size:16px; margin:0px; line-height:50px;}
+.rightbox .r_box{width:100%px;height:auto; margin-top:10px;}
+.rightbox dl{width:100%px;height:auto; text-align:left; display:block; margin-top:10px;}
+.rightbox dt{width:688px;height:37px; display:block; line-height:37px; font-size:14px; background:#f9f9f9; padding-left:10px;color:#555;}
+.rightbox dd{width:688px;height:auto; line-height:26px; padding-left:10px;color:#666; }
+.rightbox dd p{font-size:13px;}
+
 
  /* foot */
 .footer{width:100%;height:48px; margin:0px auto; background:#fff; padding:50px 0px; text-align:center;font-size:12px; color:#727272;}
