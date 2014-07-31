@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 * {padding:0;margin:0;border:0;color:#555;}
-body {font:12px arial,"\5FAE\8F6F\96C5\9ED1",sans-serif;background:#fff; margin:0px auto;color:#555; line-height:24px;}
+body {font:12px arial,"\9ED1\4F53","\5FAE\8F6F\96C5\9ED1",sans-serif;background:#fff; margin:0px auto;color:#555; line-height:24px;}
 body a{text-decoration:none;color:#666666;text-decoration:none;}
 body a:hover {text-decoration:none;}
 ul,li,dl,dt,dd {list-style:none; margin:0px; padding:0px;}
 
-h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left; margin-bottom:10px;}
-.f20{ font:20px "\5FAE\8F6F\96C5\9ED1"; color:#555;}
+h3{ font:30px "\9ED1\4F53","\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left; margin-bottom:10px;}
+.f20{ font:20px "\9ED1\4F53","\5FAE\8F6F\96C5\9ED1"; color:#555;}
 .f32{font-size:32px; color:#000;}
 .f130{font:130px Verdana, Arial, Helvetica, sans-serif; color:#ff3a3a; font-weight:normal;}
 
@@ -16,20 +16,20 @@ h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left
 .hd_box{width:990px;height:92px;margin:0px auto;}
 .header .logs{width:400px;height:71px; padding:13px 0px 0px 24px; float:left;}
 .header .logs a.logo{width:69px;height:71px; background:url(../images/logo.jpg) no-repeat; display:block; float:left;}
-.header .logs h1{width:300px;height:28px; float:left; font:24px arial,"\5FAE\8F6F\96C5\9ED1",sans-serif; font-weight:normal; padding:25px 0px 0px 15px; display:block;}
+.header .logs h1{width:300px;height:33px; float:left; font:24px arial,"\9ED1\4F53","\5FAE\8F6F\96C5\9ED1",sans-serif; font-weight:normal; margin:23px 0px 0px 15px; display:block; background:url(../images/log_tit.jpg) no-repeat left bottom; text-indent:-9999px;}
 .header .nav{width:200px;height:50px; float:left; margin:43px 0px 0px 300px;}
 .header .nav ul{width:220px;height:50px; display:block; overflow:hidden;}
 .header .nav ul li{width:95px;height:50px; float:left; display:block; line-height:24px; font-size:15px; text-align:center; margin-right:15px;}
-.header .nav ul li a{width:95px;height:50px; display:block;}
+.header .nav ul li a{width:95px;height:50px; display:block; font-size:18px;}
 .header .nav ul li a:hover{width:95px;height:45px; border-bottom:5px solid #32343b;}
 .header .nav ul li a.hov{width:95px;height:45px; border-bottom:5px solid #32343b;}
 
 
 /* banner */
 .banner{width:100%;height:633px; margin:0px auto; background:#fef4eb url(../images/ban_bdg.jpg) center no-repeat; overflow:hidden;}
-.banner div.ban, .banners div.ban{width:990px;height:633px;margin:0px auto; overflow:hidden; text-align:center;}
+.banner div.ban, .banners div.ban{width:1200px;height:633px;margin:0px auto; overflow:hidden; text-align:center;}
 
-.ewm{width:140px;height:140px; margin:305px 0px 0px 95px; padding-right:191px;}
+.ewm{width:140px;height:140px; margin:325px 0px 0px 95px; padding-right:191px;}
 .ewm img{width:140px;height:140px;}
 
 .banners{width:100%;height:633px; margin:0px auto; background:url(../images/ban_bdg_shop.jpg) center no-repeat; overflow:hidden;}
@@ -54,7 +54,7 @@ h3{ font:30px "\5FAE\8F6F\96C5\9ED1"; color:#000; display:block; text-align:left
 .rbgths{background:url(../images/bdg_shop_03.jpg) no-repeat center;}
 .rbgfos{background:url(../images/bdg_shop_04.jpg) no-repeat center;}
 
-
+.menu_t{width:191px;height:67px; display:block; margin:474px auto 0px;}
 
  /* foot */
 .footer{width:100%;height:138px; margin:0px auto; background:#f5f5f5; text-align:center; padding:100px 0px 0px;font-size:12px; border-top:1px solid #e7e7e7;}
