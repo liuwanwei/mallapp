@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="http://app.bl99w.com/css/app_css.css">
+<link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.0.3/css/font-awesome.min.css"> 
+<title>时代广场 - Android下载</title>
+<script type="text/javascript">
+	function is_weixn(){
+		    var ua = navigator.userAgent.toLowerCase();
+		    if(ua.match(/MicroMessenger/i)=="micromessenger") {
+		        return true;
+		    } else {
+		        return false;
+		    }
+	}
+	
+function download(appUrl){
+		if (is_weixn()) {
+			document.getElementById('tip_div').style.display='block';
+			return false;
+		}	
+		location.href=appUrl;
+}
+</script>
+</head>
+
+<body>
+<div class="wrap">
+<h4 class="title">Android下载</h4>
+<div class="row">
+        <div class="pic"><img src="http://app.bl99w.com/sdgc/images/yh_ad.png" class="product" /></div>
+        <div class="menubox">
+                <div></div>
+                <div>
+                    <p>时代广场<br />消费者版</p>
+                    <a href="javascript:download('https://bdgapp.b0.upaiyun.com/mall_sdgc_v1_0.apk');"><img src="http://app.bl99w.com/images/menu.png"  class="btn"/></a>
+                </div>
+        </div>
+</div>
+<div class="row nbb">
+ 		<div class="pic"><img src="http://app.bl99w.com/sdgc/images/sp_ad.png" class="product" /></div>
+        <div class="menubox">
+                <div></div>
+                <div>
+                    <p>时代广场<br />商铺版</p>
+                    <a href="javascript:download('https://bdgapp.b0.upaiyun.com/mall_sdgc_shop_v1_0.apk');"><img src="http://app.bl99w.com/images/menu.png"  class="btn"/></a>
+                </div>
+        </div>
+</div>
+
+<div class="tip-div" id="tip_div" onClick="this.style.display='none';">
+		<div class="tip-div-header">
+			<div>
+				<p>链接打不开?</p>
+				<p>请点击右上角 <i class="fa fa-share-square-o"></i></p>
+			</div>
+			<p>选择<span>"在浏览器中打开"</span></p>
+		</div>
+</div>
+
+<p class="copy">Copyright © 2014 <br />
+曦光云腾科技 版权所有</p>
+</div>
+</body>
+</html>
