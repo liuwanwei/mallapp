@@ -191,16 +191,16 @@ table {
 }
 html {
 	color:#fff;
-	font-family: arial,"\5FAE\8F6F\96C5\9ED1","\9ED1\4F53",'Open sans','Helvetica Neue',Arial,sans-serif;
-	font-size:18px;
-	line-height:30px;
-	text-align:center;
+	font-family:"\5FAE\8F6F\96C5\9ED1","\9ED1\4F53",'Open sans','Helvetica Neue',SimSun,Arial,sans-serif;
+	font-size:16px;
+	line-height:1.4;
+	text-align:center
 }
 body {
-	background:#F1EFEB url(../images/pattern.png) repeat;
+	background:#222b33;
 }
 a {
-	color:#F12E36;
+	color:#0088cc;
 	text-decoration:none
 }
 a:hover,a:focus,a:active {
@@ -227,13 +227,12 @@ h2 {
 	font-size:2em
 }
 h3 {
-	margin:0 0 10px;
-	color:#000;
-	font-size:26px;
-	font-weight:normal;
+	margin:0 0 .5em;
+	color:#555;
+	font-size:1.25em
 }
 p {
-	margin:0 0 3em; color:#333;
+	margin:0 0 3em; color:#777
 }
 .grid {
 	letter-spacing:-.31em;
@@ -267,8 +266,6 @@ p {
 	vertical-align:top;
 	width:450px;
 	line-height:36px;
-	color:#777;
-	font-size:16px;
 }
 .inline-block-list li:first-child {
 	margin-left:0
@@ -364,22 +361,20 @@ p {
 	background:#3f3f3f;
 }
 .star {
-	color:#f12e36; padding-right:10px
+	color:#FD8200; padding-right:10px
 }
-.star img{width:35px;height:35px;}
-.navbar{height:auto;width:100%; background:#fff;padding:20px 0px;}
 .site-header {
-	margin-top:0px
+	margin-top:30px
 }
 .site-logo {
 	float:left;
-	color:#000;
+	color:#fff;
 	font-weight:700;
 	font-size:24px;
 	line-height:32px;
 	text-decoration:none;
 	text-transform:uppercase;
-	text-shadow:2px 2px 0 #f0f0f0;
+	text-shadow:2px 2px 0 #000
 }
 .site-nav {
 	float:right;
@@ -397,15 +392,16 @@ p {
 	color:#fff
 }
 .site-promo {
-	padding:5px 0 35px;
+	padding:5em 0
 }
 .site-promo .description {
 	margin:1em 2em 0;
-	font-size:20px;
-	color:#555; text-align:left
+	font-size:1.25em;
+	color:#fafafa; text-align:left
 }
 .site-nav .mesg{
-	width:90px;height:36px; background:#FD8200; line-height:34px;border-radius:4px; float:right;}
+	width:90px;height:36px; background:#FD8200; line-height:34px;border-radius:4px;
+	box-shadow:0 2px 5px -2px #111,inset 0 2px 5px 0 rgba(255,255,255,.3); float:right;}
 .last-update {
 	display:block;
 	margin-top:10px;
@@ -416,7 +412,8 @@ p {
 	overflow:hidden;
 	padding:1em 0 5em;
 	color:#333;
-	background:#fff url(../images/dropshadow-big.png) top left repeat-x;}
+	background:#fff
+}
 .in-the-wild {
 	max-width:500px;
 	margin:0 auto;
@@ -430,11 +427,8 @@ p {
 .site-footer .container {
 	max-width:540px
 }
-.site-footer .container p{
-	margin:10px;color:#ABA9A7;
-}
 .site-footer a {
-	color:#ABA9A7;
+	color:#e08524
 }
 @media only screen and (max-width:720px) {
 	.site-logo,.site-nav {
@@ -569,7 +563,7 @@ h2,h3 {
 	margin-top:20px;
 }
 .serve_b_l ul li {
-	position:relative; list-style:none;
+	position:relative; list-style:none;l
 }
 .serve_b_l ul li a {
 	color:#191919;
@@ -652,7 +646,6 @@ h2,h3 {
 	color:#fff;
 	font-size:16px;
 	font-family:"Microsoft YaHei";
-	border-radius: 4px;
 }
 .serve_b_r .submit:hover {
 	background:##ff940d;
@@ -682,11 +675,6 @@ h2,h3 {
 }
 .input input.mxgint,.mxgint {
 	color:#000;
-}
-#emailError,#contentError{
-	color: #FF0000;
-	float: left;
-	padding: 5px;
 }
 
 
