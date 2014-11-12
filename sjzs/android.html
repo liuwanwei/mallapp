@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="http://app.bl99w.com/sjzs/css/app_sjzs.css">
+<link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.0.3/css/font-awesome.min.css"> 
+<title>扫街助手 - Android下载</title>
+<script type="text/javascript">
+	function is_weixn(){
+		    var ua = navigator.userAgent.toLowerCase();
+		    if(ua.match(/MicroMessenger/i)=="micromessenger") {
+		        return true;
+		    } else {
+		        return false;
+		    }
+	}
+	
+function download(appUrl){
+		if (is_weixn()) {
+			document.getElementById('tip_div').style.display='block';
+			return false;
+		}	
+		location.href=appUrl;
+}
+</script>
+</head>
+
+<body>
+<div class="wrap">
+<div class="title"><p>扫街助手</p><p class="f12">v1.0</p></div>
+<div class="row nbb" style="margin-bottom:0px; padding-bottom:10px; margin-top:20px;">
+        <div class="bdg_pic"><img src="http://app.bl99w.com/sjzs/images/sp_ad.png" class="product" /></div>
+</div>
+<div class="h10"></div>
+<div class="h10"></div>
+<div class="h10"></div>
+<div class="menubox"><a href="javascript:download('https://bdgapp.b0.upaiyun.com/SJZS_V1_0.apk');"><img src="http://app.bl99w.com/sjzs/images/menu_ad.png"  class="btn"/></a></div>
+<div class="h10"></div>
+<div class="h10"></div>
+<div class="h10"></div>
+ <div class="clear"></div>
+
+
+<div class="tip-div" id="tip_div" onClick="this.style.display='none';">
+		<div class="tip-div-header">
+			<div>
+				<p>链接打不开?</p>
+				<p>请点击右上角 <i class="fa fa-share-square-o"></i></p>
+			</div>
+			<p>选择<span>"在浏览器中打开"</span></p>
+		</div>
+</div>
+<div class="h10"></div>
+<p class="copy">Copyright © 2014 <br />
+曦光云腾科技 版权所有</p>
+</div>
+</body>
+</html>
